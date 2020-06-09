@@ -1,2 +1,28 @@
 # Project exclude paths
 /venv/
+.env
+.venv
+env/
+ENV/
+env.bak
+venv.bak
+.idea/
+
+#Vim temp files
+*.swp
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Auto-generated tag files
+tags
+
+#Python temp files
+__pycache__/
+*.py[cod]
+*$py.class
+.pybuilder/
+target/
+

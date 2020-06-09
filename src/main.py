@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands
 import random
 import time
-import time
 import sys
 import os
 
