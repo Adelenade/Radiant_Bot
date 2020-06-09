@@ -16,13 +16,15 @@ ask() {
     done
 }
 
-if ask "You are going to run the Radiant Bot please make sure you set your token before in /src/main.py"
+if ask "You are going to run the Radiant Bot please make sure you set your token before in src/main.py"
 then
     echo -e "\nLet's gooooooooooooooooooo\n"
+else
+    echo -e "\nToo bad :( that is sad Please come back soon\n"
 fi
 
 for i in {001..100}; do
-    sleep 1
+    sleep 0.2
     printf "\r $i %"
 done
 
