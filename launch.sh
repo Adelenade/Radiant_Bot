@@ -23,9 +23,11 @@ else
     echo -e "\nToo bad :( that is sad Please come back soon\n"
 fi
 
+THEPERCENTAGE='%'
 for i in {001..100}; do
     sleep 0.2
-    printf "\r $i %"
+    printf "\r $i"
+    printf '%c' "$THEPERCENTAGE"
 done
 
 python3 src/main.py
